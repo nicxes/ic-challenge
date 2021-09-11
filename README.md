@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Please remember to setup your .env file and run your migrations and seeders.
+Please remember to setup your .env file and then follow this instructions.
 
 ### Install dependencies
 
@@ -11,10 +11,10 @@ Please remember to setup your .env file and run your migrations and seeders.
   $ npm install                      // This would install all the dependencies from package.json
   ```
 
-### Install dependencies
+### Run migrations + Seeders
 
   ```
-  $ php artisan migrate:refresh --seed  // Run migrations + seeders
+  $ php artisan migrate:refresh --seed
   ```
 
 ### Running localhost
