@@ -22,6 +22,6 @@ Please remember to setup your .env file and then follow this instructions.
   ```
   $ php artisan serve                // Run laravel server
   $ npm run dev                      // Run all Mix tasks
-  $ npm run watch                    // Watch will continue running in your terminal and watch all relevant files for changes
+  $ npm run watch (optional)         // Watch will continue running in your terminal and watch all relevant files for changes
   ```
 
