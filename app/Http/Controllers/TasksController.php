@@ -95,8 +95,9 @@ class TasksController extends Controller
     /**
      * Endpoint to destroy a task
      */
-    public function destroy(Task $task)
+    public function destroy($id)
     {
+        $task = Task::find($id);
         $task->delete();
 
         return $this->render([
